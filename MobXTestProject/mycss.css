@@ -1,0 +1,44 @@
+.fon {
+    list-style-type: none;
+    margin: 0 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.fablogo {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin: 18px auto;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 18px;
+    padding: 10px auto;
+    vertical-align: middle;
+    float: left;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
