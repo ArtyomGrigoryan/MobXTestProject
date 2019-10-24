@@ -7,7 +7,7 @@ function goBack() {
 var menu = document.getElementsByClassName('layout-header js-layout-header fixed-top')[0];
 menu.style.visibility = 'hidden';
 
-/* Покажем гугл */
+/* Покажем иконку Фаберлик со стрелкой назад */
 var body = document.getElementsByTagName('body')[0];
 body.insertAdjacentHTML('afterbegin', '<div class="fon"><div class="arrow"><input type="image" id="left-arrow" width="60" height="30" onclick="goBack()" src=""></div><div class="fablogo"><a href="https://new.faberlic.com/"><img id="faberlic" src="" width="100" height="30"></a></div></div>');
 
